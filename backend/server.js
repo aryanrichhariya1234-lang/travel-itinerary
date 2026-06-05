@@ -17,7 +17,7 @@ app.use(
   cors({
     origin:
       process.env.FRONTEND_URL ||
-      "https://travel-itinerary-eosin-iota.vercel.app/",
+      "https://travel-itinerary-eosin-iota.vercel.app",
     credentials: true,
   })
 );
