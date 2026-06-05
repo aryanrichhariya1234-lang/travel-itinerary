@@ -12,7 +12,8 @@
     "react-dropzone": "^14.2.3",
     "react-hot-toast": "^2.4.1",
     "react-router-dom": "^6.21.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "yaml": "^2.9.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,7 +21,15 @@
   },
   "proxy": "http://localhost:5000",
   "browserslist": {
-    "production": [">0.2%", "not dead", "not op_mini all"],
-    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
